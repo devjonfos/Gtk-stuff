@@ -1,0 +1,25 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *
+ * hello-world-extended.c
+ * 10/03/2020 (mm/dd/yyyy)
+ * by Jon Foster
+ * jonfos@devjonfos.net
+ * 
+ * License: CC BY-NC-SA 
+ *    https://creativecommons.org/licenses/by-nc-sa/4.0/
+ *    Attribution-NonCommercial-ShareAlike
+ * 
+ * Extending the hello-world gtk example with a dialog
+ * printing the dialog response on standard output
+ * 
+ * https://www.gtk.org/docs/getting-started/hello-world/
+ * 
+ * Notice the internalization header for 
+ * the _("_OK") , _("_Cancel") macros
+ * 
+ * Also, the callback function for a dialog's response signal is
+ * void user_function (GtkDialog *dialog, int response_id, gpointer user_data)
+ * https://developer.gnome.org/gtk3/stable/GtkDialog.html#GtkDialog-response
+ * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
