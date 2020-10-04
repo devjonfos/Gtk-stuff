@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Gtk_dev",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys2/mingw64/include/**",
+                "C:/msys2/mingw64/lib/glib-2.0/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/msys2/mingw64/bin/gcc.exe",
+            "cStandard": "gnu18",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "${workspaceFolder}"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
